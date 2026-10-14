@@ -5,5 +5,7 @@ namespace FractionCircles
     {
         public static bool Premium => false;
         public static bool Basic => !Premium;
+
+        public static void Detect() { }
     }
 }
